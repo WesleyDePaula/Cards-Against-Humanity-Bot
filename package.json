@@ -4,7 +4,8 @@
   "description": "A Discord Bot inspired on card game \"Cards Against Humanity\". Made with JavaScript and Discord.js.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/WesleyDePaula/Cards-Against-Humanity-Bot/issues"
   },
-  "homepage": "https://github.com/WesleyDePaula/Cards-Against-Humanity-Bot#readme"
+  "homepage": "https://github.com/WesleyDePaula/Cards-Against-Humanity-Bot#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0"
+  }
 }
